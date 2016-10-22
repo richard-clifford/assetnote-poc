@@ -159,3 +159,6 @@ Contact me via Twitter if any help is needed [@infosec_au](https://twitter.com/i
 [bsidesau.com.au](http://bsidesau.com.au)
 
 This was released at BSides Canberra by [@infosec_au](https://twitter.com/infosec_au) and [@nnwakelam](https://twitter.com/nnwakelam) for the talk "Scrutiny on the bug bounty".
+---
+
+Note: this project was made within 24 hours and is a proof of concept.
