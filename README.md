@@ -2,6 +2,8 @@
 
 ![logo](http://i.imgur.com/nY80uWj.png)
 
+**Note: The public version of assetnote is a proof-of-concept. Feel free to use it, but I provide no warranty or support for this project.**
+
 Assetnote notifies you of assets that have been found through scraping passive data stores. By using [Pushover's](https://pushover.net) push notification API, as soon as a new subdomain is found for an asset, a push notification is sent to your mobile phone (iOS/Android) with the data found.
 
 For public release, I have included an example `manager` script for assetnote. This is Threatcrowd's public yet passive DNS data store. Assetnote can be extended very easily by writing scripts that interact with the `assetnote.db` SQLite database. The more scripts that have been made to scrape data sources, the more success one will have with this tool.
