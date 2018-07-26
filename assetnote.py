@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify, url_for, redirect
-from flask.ext.seasurf import SeaSurf
-from flask.ext.sqlalchemy import SQLAlchemy
-from flask.ext.security import Security, SQLAlchemyUserDatastore, \
+from flask_seasurf import SeaSurf
+from flask_sqlalchemy import SQLAlchemy
+from flask_security import Security, SQLAlchemyUserDatastore, \
     UserMixin, RoleMixin, login_required, current_user
 import sqlite3
 import config
